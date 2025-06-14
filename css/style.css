@@ -1,0 +1,429 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
+.font {
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.home {
+    overflow-x: hidden;
+}
+
+.logo {
+    width: 15%;
+}
+
+.coloreRow1 {
+    background-color: rgb(145, 145, 145);
+}
+
+.coloreRow2 {
+    background-color: rgb(156, 5, 5);
+}
+
+.testoBottone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+@media (min-width: 770px) and (max-width: 1700px) {
+    .testoBottone {
+        font-size: 26px;
+    }
+}
+
+.imgStoria {
+    width: 100%;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+.imgMacchina {
+    width: 100%;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.descrizioneStoria {
+    text-align: center;
+    align-items: center;
+    color: white;
+}
+
+.bottone {
+    width: 50%;
+    height: 30%;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(66, 60, 60);
+    border: solid 2px;
+    border-radius: 50px;
+    margin-top: 5%;
+}
+
+.bottone2 {
+    width: 50%;
+    height: 30%;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(99, 0, 0);
+    border: solid 2px;
+    border-radius: 50px;
+    margin-top: 5%;
+}
+
+@media (max-width: 768px) {
+    .bottone {
+      margin-bottom: 4%;
+      height: 70%;
+      border-radius: 30px;
+    }
+
+    .bottone2 {
+      margin-bottom: 4%;
+      height: 70%;
+      border-radius: 30px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .imgStoria {
+        border-top-right-radius: 50px;
+        border-bottom-right-radius: 50px;
+    }
+
+    .imgMacchina {
+        border-top-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        border-bottom-left-radius: 50px;
+    }
+  }
+
+.bottone:hover {
+    transform: scale(1.10);
+    transition: 0.3s;
+    opacity: 0.75;
+}
+
+.bottone2:hover {
+    transform: scale(1.10);
+    transition: 0.3s;
+    opacity: 0.75;
+}
+
+.video {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.video h1 {
+    position: absolute;
+    font-size: 50px;
+    top: 50%; left: 50%; 
+    transform: translate(-50%, -50%); 
+    color: white; 
+    z-index: 1;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.sottolineatura {
+    text-decoration: none;
+}
+
+.contenitoreRow {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contenitoreRow .row {
+    border-radius: 50px;
+    margin-bottom: 5%;
+    box-shadow: 0 4px 8px rgb(0, 0, 0.5);
+    margin-bottom: 7%;
+}
+
+.titoloStoria {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 35px;
+    font-style: italic;
+    background-color: rgb(112, 0, 0);
+    color: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgb(0, 0, 0.5);
+}
+
+.contenitoreStoria {
+    width: 70%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+}
+
+ @media (max-width: 768px) {
+    .contenitoreStoria {
+        width: 80%;
+    }
+ }
+
+ @media (min-width: 1200px) {
+    .contenitoreStoria {
+        width: 50%;
+    }
+ }
+
+.data {
+    font-weight: bold;
+    margin-top: 70px;
+    text-align: start;
+}
+
+.storiaDescrizione {
+    font-size: 18px;
+    margin-top: 40px;
+    text-align: start;
+}
+
+.imgStoria1 {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4%;
+    margin-bottom: 1%;
+}
+
+.imgStoria2 {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4%;
+    margin-bottom: 1%;
+}
+
+ @media (max-width: 992px) {
+    .imgStoria1 {
+        width: 100%;
+    }
+
+    .imgStoria2 {
+        width: 100%;
+    }
+ }
+
+.carousel {
+  margin-bottom: 10%;
+}
+
+.carousel-item {
+  height: 70vh;
+}
+
+.carousel-item img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.showroom {
+    background-color: rgb(50, 50, 50);
+}
+
+.containerMacchine {
+    width: 60%;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (max-width: 1500px) {
+    .containerMacchine {
+        width: 90%;
+    }
+}
+
+.macchina1 {
+    width: 100%;
+}
+
+.containerMacchine .row {
+    align-items: center;
+}
+
+.containerMacchine hr {
+    color: white;
+}
+
+.nomeMacchina {
+    color: white;
+    text-align: center;
+}
+
+.bodyF1 {
+    background-color: rgb(255, 255, 255);
+    overflow-x: hidden;
+}
+
+.f1TeamTitolo {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 35px;
+    font-style: italic;
+    background-color: rgb(112, 0, 0);
+    color: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgb(0, 0, 0.5);
+}
+
+.f1TeamTitolo2 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 40px;
+    font-style: italic;
+    background-color: rgb(112, 0, 0);
+    color: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgb(0, 0, 0.5);
+}
+
+.contenitoreF1Team {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.contenitoreF1Team .row {
+    margin-top: 5%;
+}
+
+.contenitoreF1Team div {
+    font-size: 18px;
+    margin-top: 40px;
+    text-align: start;
+    text-align: center;
+}
+
+.contenitoreF1Team p {
+    font-size: 18px;
+    margin-top: 40px;
+    text-align: start;
+}
+
+ @media (max-width: 1200px) {
+    .contenitoreF1Team {
+        width: 80%;
+    }
+}
+
+ @media (max-width: 850px) {
+    .contenitoreF1Team .imgPiloti1 {
+        width: 80%;
+    }
+}
+
+.contenitoreF1Team hr {
+    margin-top: 5%;
+}
+
+.imgPiloti1 {
+    width: 60%;
+}
+
+.contenitoreF1Team .row img {
+    width: 80%;
+}
+
+
+.contenitoreF1Team .par {
+    text-align: start;
+}
+
+.contenitoreF1Team .row div {
+    text-align: center;
+}
+
+@media screen and (min-width: 2000px) {
+    .contenitoreF1Team {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    .contenitoreF1Team {
+        width: 90%;
+    }
+}
+
+.containerVideo {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4%;
+}
+
+.videoWrapper {
+    width: 100%;
+    height: 40vh;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.video2 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.containerVideo .p2 {
+    font-size: 18px;
+    margin-top: 40px;
+    text-align: start;
+}
+
+.containerVideo .p3 {
+    font-size: 18px;
+    margin-top: 2%;
+    text-align: start;
+}
+
+.hrf1 {
+  margin-top: 5%;
+  margin-bottom: 3%;
+  text-align: center;
+}
+
+.sf25Fine {
+    width: 50%;
+    border-radius: 30px;
+    margin-top: 2%;
+    
+}
+
+.secondoParF1 {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.secondoParF1 h1 {
+    text-align: start;
+}
+
+@media screen and (max-width: 1100px) {
+    .sf25Fine {
+        width: 100%;
+    }
+}
